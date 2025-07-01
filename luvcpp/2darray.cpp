@@ -18,4 +18,4 @@ int main(){
      
 	return 0;
 }
-//max size of array in main(locally) is 10^5
+//max size of array in main(locally) is 10^5 and globally is 10^7
