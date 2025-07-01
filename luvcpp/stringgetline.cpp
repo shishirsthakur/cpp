@@ -1,12 +1,16 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-	string str1, str2;
-   str1 = "Hello";
-   cout << str1.size()<<endl;
-   cout << str1[0]<< endl;
+	int t;
+	cin >> t;
+	cin.ignore(); //makes the cursor shift to the next line after the first cin finishes and allows the getline to work as expected
+	while(t--){ 
+	{
+		string s;
+		getline(cin, s);
+     cout<<s << endl;
+	}
+}
 
-getline(cin, str2); //inputs the whole line
-	cout <<str2;
 	return 0;
 }
