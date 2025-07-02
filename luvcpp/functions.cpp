@@ -25,6 +25,6 @@ int main()
 int a, b;
 cin >>a>>b;
 cout << digit_sum(a) + digit_sum(b);
-	
+	 
 	return 0;
 }
