@@ -31,3 +31,8 @@ int main(){
 	}
 	
 }
+
+// // for hashing of negative numbers
+// take the max range, add it and make positive array
+// then hash it and for outputting substract the initial
+// number you added
