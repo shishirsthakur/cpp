@@ -17,3 +17,6 @@ for(int i = 2; i<=n; ++i){
 // 4. (a/b % M)   = ((a%M) * (b^-1 % M
 // print answer modulo M reduces overflow
 // break down the value according to the formula
+// 10^9 +7 is used because it is a prime
+// and can be usedto find MI and final result
+// can be stored in int.
