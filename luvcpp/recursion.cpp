@@ -15,4 +15,4 @@ int main(){
 	
 }
 // No of function calls
-// Compleexity of fxn is required for TC
+// Compleexity of fxn is required for Time complexity calculation
