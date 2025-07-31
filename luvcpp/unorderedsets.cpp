@@ -17,6 +17,6 @@ int main(){
 		s.erase(it);
 	}
 	print(s);
-	
+
 
 }
