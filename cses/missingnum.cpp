@@ -20,8 +20,8 @@ int main() {
     }
 
     // Initialize first and last with the first element of the array
-    long long first = 1;
-    long long last = n;
+    long long first;
+    long long last;
 
     // Find min and max
     for (int i = 1; i < n; ++i) {
