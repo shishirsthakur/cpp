@@ -10,11 +10,11 @@ int main(){
      for(int i= 0; i<n; i++){
         cin >> arr[i];
      }
-     int max;
+     long long int maximum = arr[0];
      for(int i= 1; i<n; i++){
-        if(arr[i] > arr[i-1]){
-            max = arr[i];
+        if(arr[i] > maximum){
+            maximum = arr[i];
         }
      }
-     cout << max;
+     cout << maximum;
 }
