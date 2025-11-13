@@ -1,0 +1,26 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+void solution(){
+    long long k, x;
+
+        cin >> x >> k;
+        if(x%k==0){
+            cout << 2 << "\n";
+            cout << 1 << " " << x-1 << "\n";
+        }
+        else{
+            cout << 1 << "\n";
+            cout << x << "\n";
+}}
+
+
+
+int main(){
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    int t; 
+    cin >> t;
+    while(t--) 
+    solution();
+}
