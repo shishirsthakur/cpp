@@ -9,17 +9,17 @@ void solution(){
    for(int i =0; i < n; i++){
       cin >> arr[i];
    }
-    int flag = 0;
+    int a = 0;
     for (int i = 0; i < n; i++){
       for (int j = i + 1; j < n; j++){
          if (__gcd(arr[i], arr[j]) <= 2){
-            flag = 1; 
+            a = 1; 
          }
 
          }
 
         }
-        if (flag == 0){
+        if (a == 0){
          cout << "NO" << "\n";
         }
 
