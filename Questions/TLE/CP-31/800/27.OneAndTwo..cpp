@@ -16,7 +16,7 @@ void solution(){
             if (arr[i] == 2){
             two++;
             }
-            }
+         }
 
 
         long long sol = -1;
