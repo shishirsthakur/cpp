@@ -1,20 +1,20 @@
-    #include <bits/stdc++.h>
+      #include <bits/stdc++.h>
     using namespace std;
      
     void solution() {
         string s;
         cin >> s;
      
-        bool f = true;
-        for (int i = 1; i < (int)s.size(); ++i) {
-            if (s[i] != s[0]) {
-                f = false;
+        bool f = false;
+        for (int i = 0; i < (int)s.size() - 1; ++i) {
+            if (s[i] == s[i+1]) {
+                f = true;
                 break;
             }
         }
      
         if (f) cout << 1 << "\n";
-        else cout << 2 << "\n";
+        else cout << (int)s.size() << "\n";
     }
      
     int main() {
