@@ -5,7 +5,7 @@ void solution() {
     string cf = "codeforces";
     char c;
     cin >> c;
-    if(cf.find(c)){
+    if(cf.find(c) != string::npos){
         cout << "YES" << "\n";
     }
     else cout << "NO" << "\n";
