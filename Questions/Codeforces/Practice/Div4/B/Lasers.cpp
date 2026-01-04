@@ -2,9 +2,18 @@
 using namespace std;
 
 void solution() {
-    long long a, b, c, d, e, f;
-    cin >> a >> b >> c >> d >> e >>f;
-    cout << a+b << "\n";
+    long long n, m, x, y;
+    cin >> n >> m >> x >> y;
+    for(int i = 0; i < n; i++){
+        long long a;
+        cin >> a;
+    }  
+    for(int i = 0; i < m; i++){
+        long long b;
+        cin >> b;
+    }
+     
+    cout << n+m << "\n";
 }
 
 int main() {
