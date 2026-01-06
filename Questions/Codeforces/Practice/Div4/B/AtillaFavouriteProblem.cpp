@@ -9,14 +9,13 @@ void solution() {
         cin >> arr[i];
     }
     
-    char req = arr[0];
-    for(int i = 0; i < n-1; i++){
-        if(arr[i] < arr[i+1]){
-            req = arr[i+1];
-        }
+    char req = 'a';
+    for(int i = 0; i < n; i++){
+    
+            req = max(req, arr[i]);
     }
     
-    cout << (int)req - 96 << "\n";  // Distance from 'a'
+    cout << (int)req - 96 << "\n";
 }
 
 int main() {
