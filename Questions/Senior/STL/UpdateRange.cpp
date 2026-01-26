@@ -4,7 +4,7 @@ using namespace std;
 void solve() {
     long long int n, q;
     cin >> n >> q;
-    vector<int> arr(n);
+    vector<long long> arr(n);
     for(int i = 0; i < n; i++){
         cin >> arr[i];
     }
@@ -13,7 +13,7 @@ void solve() {
         cin >> l >> r >> v;
         l--;
         r--;
-        for(int i = l; i <= r; i++){
+        for(long long i = l; i <= r; i++){
          arr[i] = arr[i] + v;
     }
     }
